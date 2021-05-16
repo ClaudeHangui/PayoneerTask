@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Payoneer Home Exercise</string>
+    <string name="error_bad_request">Oops ! Something went wrong here</string>
+    <string name="error_forbidden">Hold up !</string>
+    <string name="error_gateway">Well, this is unexpected</string>
+    <string name="error_network">No internet connection</string>
+    <string name="error_not_found">Content not found</string>
+    <string name="error_internal_server">Oops ! Something went wrong here</string>
+    <string name="error_unauthorised">Hold up !</string>
+    <string name="error_unknown">Oops ! Something went wrong here</string>
+
+    <string name="error_bad_request_desc">An unexpected error occurred. Try again or exit and retry later. If the problem persists please reach out to our help center </string>
+    <string name="error_network_desc">You don\'t seem to be connected to the internet. Please check your connection and try again or exit and retry later</string>
+    <string name="error_forbidden_desc">We are sorry but, you are not permitted to see this. Please exit and contact the help center or retry later</string>
+    <string name="error_gateway_desc">An error occurred and we\'re working to fix the problem. Please exit and contact the help center or retry later</string>
+    <string name="error_not_found_desc">We can\'t seem to find the content you are looking for. Please exit and retry later </string>
+    <string name="error_internal_server_desc">We\'re working on it and we\'ll get it fixed as soon as possible. Please exit and contact the help center or retry later </string>
+    <string name="error_unauthorised_desc">You are not authorised to see this content. Please exit and contact the help center or retry later </string>
+    <string name="error_unknown_desc">An unexpected error occurred. Try again or exit and retry later </string>
+</resources>

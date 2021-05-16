@@ -1,0 +1,82 @@
+[
+  {
+    "code": "AMEX",
+    "label": "American Express",
+    "method": "CREDIT_CARD",
+    "grouping": "CREDIT_CARD",
+    "registration": "OPTIONAL",
+    "recurrence": "NONE",
+    "redirect": false,
+    "links": {
+      "logo": "https://resources.integration.oscato.com/resource/network/MOBILETEAM/en_US/AMEX/logo3x.png",
+      "self": "https://api.integration.oscato.com/pci/v1/6076b2feabe8170009d56de4l7ab1tlvai852jekk4s2h2b7it/AMEX",
+      "lang": "https://resources.integration.oscato.com/resource/lang/MOBILETEAM/en_US/AMEX.json",
+      "operation": "https://api.integration.oscato.com/pci/v1/6076b2feabe8170009d56de4l7ab1tlvai852jekk4s2h2b7it/AMEX/charge",
+      "validation": "https://api.integration.oscato.com/pci/v1/6076b2feabe8170009d56de4l7ab1tlvai852jekk4s2h2b7it/MOBILETEAM/en_US/AMEX/standard/validate"
+    },
+    "selected": false,
+    "inputElements": [
+      {
+        "name": "number",
+        "type": "numeric"
+      },
+      {
+        "name": "expiryMonth",
+        "type": "integer"
+      },
+      {
+        "name": "expiryYear",
+        "type": "integer"
+      },
+      {
+        "name": "verificationCode",
+        "type": "integer"
+      },
+      {
+        "name": "holderName",
+        "type": "string"
+      }
+    ],
+    "operationType": "CHARGE"
+  },
+  {
+    "code": "DINERS",
+    "label": "Diners Club",
+    "method": "CREDIT_CARD",
+    "grouping": "CREDIT_CARD",
+    "registration": "OPTIONAL",
+    "recurrence": "NONE",
+    "redirect": false,
+    "links": {
+      "logo": "https://resources.integration.oscato.com/resource/network/MOBILETEAM/en_US/DINERS/logo3x.png",
+      "self": "https://api.integration.oscato.com/pci/v1/6076b2feabe8170009d56de4l7ab1tlvai852jekk4s2h2b7it/DINERS",
+      "lang": "https://resources.integration.oscato.com/resource/lang/MOBILETEAM/en_US/DINERS.json",
+      "operation": "https://api.integration.oscato.com/pci/v1/6076b2feabe8170009d56de4l7ab1tlvai852jekk4s2h2b7it/DINERS/charge",
+      "validation": "https://api.integration.oscato.com/pci/v1/6076b2feabe8170009d56de4l7ab1tlvai852jekk4s2h2b7it/MOBILETEAM/en_US/DINERS/standard/validate"
+    },
+    "selected": false,
+    "inputElements": [
+      {
+        "name": "number",
+        "type": "numeric"
+      },
+      {
+        "name": "expiryMonth",
+        "type": "integer"
+      },
+      {
+        "name": "expiryYear",
+        "type": "integer"
+      },
+      {
+        "name": "verificationCode",
+        "type": "integer"
+      },
+      {
+        "name": "holderName",
+        "type": "string"
+      }
+    ],
+    "operationType": "CHARGE"
+  }
+]
